@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="style.css" rel="stylesheet" />
+    <!-- Bootstrap Link:-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!--Google Fonts links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Spartan:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <title>Cookbook</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light fixed-top" style="background-color:#EDDCD2;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Cookbook</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header" style="background-color: #EDDCD2">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Cookbook Menu
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="offcanvasNavbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Deserts
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="offcanvasNavbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#brownies"
+                      >Nutella Brownies</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="offcanvasNavbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Main Dishes
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="offcanvasNavbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#spaghetti"
+                      >Spaghetti carbonara</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1 id="home">Cookbook Title</h1>
+      <br />
+      <p>
+        This is about the cookbook Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Similique aperiam, ipsam corporis quibusdam voluptate,
+        minus ab, perspiciatis consectetur modi explicabo hic! Nulla, accusamus?
+        Aut consequuntur corporis vero repudiandae earum voluptate.
+      </p>
+      <p>Mattis rhoncus urna neque viverra. Sagittis id consectetur purus ut faucibus. Sit amet nisl purus in mollis nunc. Vitae purus faucibus ornare suspendisse sed nisi lacus sed. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Id nibh tortor id aliquet lectus proin nibh nisl. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum. Sed id semper risus in hendrerit. Pretium aenean pharetra magna ac. Suspendisse in est ante in nibh mauris cursus mattis.
+
+      </p>
+
+      <!-- Recipe 1 goes here-->
+      <div class="container recipe">
+        <div class="row">
+          <h2 id="brownies"><span class="word">Nutella </span><span class="word">Brownies</span></h2>
+          <p>
+            Incredibly chewy chocolate brownies made with your favorite hazelnut
+            spread!
+          </p>
+          <img
+            class="col-6"
+            id="brownies"
+            src="https://d12xickik43a9a.cloudfront.net/images/magazine/de/M16712-Nutella-Brownies_mag-Q75-750.jpg"
+            alt="nutella brownies"
+            title="Nutella Brownies"
+          />
+          <div class="col-6">
+            <table class="table table-striped table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">Amount</th>
+                  <th scope="col">Ingredient</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1 cup (2 sticks)</td>
+                  <td>butter</td>
+                </tr>
+                <tr>
+                  <td>2 1/4 cups</td>
+                  <td>sugar</td>
+                </tr>
+                <tr>
+                  <td>1 jar</td>
+                  <td>Nutella</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>large eggs</td>
+                </tr>
+                <tr>
+                  <td>1 cup</td>
+                  <td>cocoa powder</td>
+                </tr>
+                <tr>
+                  <td>1/4 cup</td>
+                  <td>dark cocoa powder</td>
+                </tr>
+                <tr>
+                  <td>1 teaspoon</td>
+                  <td>espresso powder</td>
+                </tr>
+                <tr>
+                  <td>1 tablespoon</td>
+                  <td>vanilla extract</td>
+                </tr>
+                <tr>
+                  <td>1 1/2 cup</td>
+                  <td>all-purpose flour</td>
+                </tr>
+                <tr>
+                  <td>10 ounce package</td>
+                  <td>mini chocolate chips</td>
+                </tr>
+                <tr>
+                  <td>1 cup (2 sticks)</td>
+                  <td>butter</td>
+                </tr>
+                <tr>
+                  <td>1 cup (2 sticks)</td>
+                  <td>butter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="d-flex gap-2 d-md-flex justify-content-md-end">
+            <button onclick="shareButton()" class="btn btn-outline-secondary" type="button">Share</button>
+            <a href="#home"><button  class="btn btn-outline-secondary" type="button">Back to Top</button></a>
+        </div>
+      </div>
+      
+
+
+      <!-- Recipe 2 goes here-->
+      <div class="container recipe">
+          <div class="row">
+            <h2 id="spaghetti"><span class="word">Ultimate </span><span class="word">spaghetti </span><span class="word">carbonara </span><span class="word">recipe</span></h2>
+            <p>Discover how to make superb spaghetti carbonara.</p>
+            <img
+              class="col-6"
+              id="carbonara"
+              src="https://www.gutekueche.at/storage/media/recipe/101380/2127_Spaghetti-Carbonara-1.jpg"
+              alt="spaghetti carbonara"
+              title="Ultimate spaghetti carbonara recipe"
+            />
+            <div class="col-6">
+              <table class="table table-striped table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Ingredient</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>350g</td>
+                    <td>Spaghetti</td>
+                  </tr>
+                  <tr>
+                    <td>100g</td>
+                    <td>Pancetta</td>
+                  </tr>
+                  <tr>
+                    <td>50g</td>
+                    <td>Parmesan</td>
+                  </tr>
+                  <tr>
+                    <td>50g</td>
+                    <td>Pecorino Cheese</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>large eggs</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>
+                      plump garlic cloves
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Some</td>
+                    <td>
+                      sea salt, ground black pepper
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="d-flex gap-2 d-md-flex justify-content-md-end">
+              <button onclick="shareButton()" class="btn btn-outline-secondary" type="button">Share</button>
+              <a href="#home"><button  class="btn btn-outline-secondary" type="button">Back to Top</button></a>
+          </div>
+      </div>
+      
+      
+
+      </div>
+    </div>
+  </body>
+  <!-- Button -->
+  <script>
+      function shareButton() {
+        alert("Yeah! You shared this recipe to all your social media you are logged in to right now!");
+      }
+  </script>
+  <!-- Some other JS -->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"
+  ></script>
+</html>

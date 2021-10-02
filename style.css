@@ -1,0 +1,81 @@
+/* font-family: 'Lobster', cursive;
+font-family: 'Spartan', sans-serif;
+nav class="navbar navbar-light bg-light fixed-top" */
+
+.navbar-brand {
+  font-family: "Lobster", cursive;
+}
+
+.offcanvas-title {
+  font-family: "Lobster", cursive;
+}
+
+.offcanvas-body {
+  font-family: "Spartan", sans-serif;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  padding-top: 70px;
+  text-align: center;
+}
+
+span.word {
+  position: relative;
+}
+
+span.word:after {
+  background-color: #eeddd3;
+  content: "";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: -1rem;
+  top: 65%;
+  width: calc(100% + 2.75rem);
+  z-index: -1;
+}
+
+h2 {
+  font-family: "Lobster", cursive;
+}
+
+p {
+  font-family: "Spartan", sans-serif;
+}
+
+table {
+  font-family: "Spartan", sans-serif;
+}
+
+thead {
+  font-weight: medium;
+}
+
+.recipe {
+  margin: 100px;
+}
+
+img {
+  max-width: 50%;
+  min-width: 450px;
+  height: auto;
+}
+
+table {
+  min-width: 400px;
+}
+
+.btn {
+  font-family: "Spartan", sans-serif !important;
+  color: #432818 !important;
+  border: 1px solid #432818 !important;
+}
+
+.btn:hover {
+  background-color: #eeddd3 !important;
+}
+
+.btn:active {
+  border: 3px solid #432818 !important;
+}
